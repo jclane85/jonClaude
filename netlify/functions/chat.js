@@ -3,6 +3,10 @@ exports.handler = async (event) => {
     return { statusCode: 405, body: 'Method Not Allowed' };
   }
 
+  if ((event.body?.length ?? 0) > 32000) {
+    return { statusCode: 413, body: 'Payload too large' };
+  }
+
   try {
     const response = await fetch('https://api.anthropic.com/v1/messages', {
       method: 'POST',
