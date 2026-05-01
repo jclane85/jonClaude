@@ -479,6 +479,64 @@ body:has(#jc.dark) {
 .jc-rcerts { display: flex; flex-direction: column; gap: 0.35rem; }
 .jc-rcert { font-size: 0.81rem; color: var(--muted); }
 
+/* ─── RESPONSIVE / MOBILE ─── */
+@media (max-width: 640px) {
+  body {
+    padding: 0;
+    align-items: stretch;
+  }
+
+  #jc {
+    border-radius: 0;
+    border: none;
+    height: 100vh;
+    height: 100dvh;
+    min-height: 0;
+    max-width: none;
+  }
+
+  .jc-header { padding: 0.75rem 1rem; }
+
+  .jc-subtitle { display: none; }
+
+  .jc-header-right { gap: 0.75rem; }
+
+  .jc-body { flex-direction: column; }
+
+  .jc-sidebar {
+    width: 100%;
+    flex-direction: row;
+    padding: 0;
+    border-bottom: 1px solid var(--border);
+    flex-shrink: 0;
+  }
+
+  .jc-nav-item {
+    flex: 1;
+    text-align: center;
+    padding: 0.65rem 0.5rem;
+    font-size: 0.78rem;
+    border-bottom: 2px solid transparent;
+    margin-bottom: -1px;
+  }
+
+  .jc-nav-item.active { border-bottom-color: var(--nav-active); }
+
+  .jc-main { border-left: none; }
+
+  .jc-responses { padding: 1.25rem 1rem; }
+
+  .jc-empty-state { padding: 2rem 1rem 1rem; }
+
+  .jc-input-section { padding: 0.75rem 1rem 0.5rem; }
+
+  .jc-sugs { gap: 0.5rem 1rem; }
+
+  .jc-resume-view { padding: 1.5rem 1rem; }
+
+  .jc-resume-actions { margin-bottom: 1.25rem; }
+}
+
 /* ─── PRINT STYLES ─── */
 @media print {
   @page { margin: 0; size: letter portrait; }
