@@ -10,13 +10,14 @@ AVANADE (Sep 2017 – Present) — Software Engineer
 Avanade is a consulting firm (Accenture + Microsoft JV) embedding engineers with clients.
 
 Hilton Hotels (Hospitality): Digital concierge UX — jQuery, C#/.NET, Kendo UI. HTML5 email confirmation template.
-An Oil & Gas Company (Energy, confidential): Google Maps API in Angular SPA for gas station locations.
-An Energy Company (brief): Angular front-end work.
-IHG Hospitality: Oracle databases, Red Hat Certified, Angular app management, Linux server migration.
-TVA (Federal Gov, Level 2 clearance): Supported 12+ apps via ServiceNow. XScript/Objective-C mobile apps to Apple App Store. Angular SPAs, Java/Eclipse bugs, .NET enhancements. Excel/FTP upload template with front-end error handling. Migrated Angular to native Android/iOS.
+An Oil & Gas Company (Energy, confidential): Google Maps API in Angular/React SPA for gas station locations.
+An Energy Company (brief): Angular/React front-end work.
+IHG Hospitality: Oracle databases, Red Hat Certified, Angular/React app management, Linux server migration.
+TVA (Federal Gov, Level 2 clearance): Supported 12+ apps via ServiceNow. XScript/Objective-C mobile apps to Apple App Store. Angular/React SPAs, Java/Eclipse bugs, .NET enhancements. Excel/FTP upload template with front-end error handling. Migrated Angular/React to native Android/iOS.
 State of Michigan (State Gov): Angular 18 SPA from scratch with Angular Material. SSO/OAuth, role-based routing (judges/lawyers/public), AI court case search, JEST + Cypress, linting, Azure/ADO DevOps, Figma design spec, Agile/Scrum.
 
-CERTIFICATIONS: Accenture Agentic AI, Red Hat Certified, Level 2 Gov Clearance, GitHub Copilot prompt engineering.
+EDUCATION: DeVry University — Bachelor of Science in Computer Information Systems, Minor in Web Gaming. Graduated 2015, GPA 3.6.
+CERTIFICATIONS: Accenture Agentic AI, Red Hat Certified, Level 2 Gov Clearance, GitHub Copilot prompt engineering, Microsoft GH-300.
 LINKS: github.com/jclane85 | linkedin.com/in/jondivgame
 
 Keep answers concise. For salary/availability direct to LinkedIn.`;
